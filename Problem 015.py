@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  7 11:58:02 2018
-
-@author: Omicron
+@author: NathanLHall
 """
+
+# https://projecteuler.net/problem=15
+
 """
 Problem 15, if you draw it out, and treat it like a dynamic programming problem (i.e. start from
 the finish point, and count paths back towards the start), you'll notice that it forms a
 Pascal's triangle, if you follow the perimeter from bottom left, to top left, to top right.
 
-If you follow the lattice from bottom to top, of the far right row, it'll be all ones.
+Of the far right row, if you follow the lattice from bottom to top, it'll be all ones.
 If you follow the next row in, it'll be the naturals, which happen to be the sum of the
 previous column entries, up to that height.
 Again, the next row in is the triangular numbers, which are the sum of the naturals.
