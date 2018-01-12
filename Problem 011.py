@@ -3,9 +3,12 @@
 @author: NathanLHall
 """
 
+# https://projecteuler.net/problem=11
+
 """
-To make the code simpler, I've added extra 0s around the perimeter.  This is help avoid writting
-extra conditions for when trying to multiply near edges and don't have 4 terms.
+To make the code simpler, I've added extra 0s around the perimeter (see Problem 011.txt).
+This is help avoid writting extra conditions for when trying to multiply near edges and
+don't have 4 terms.
 """
 file = open("D:\Project Euler\Problem 011.txt", 'r')
 contents = file.readlines()
