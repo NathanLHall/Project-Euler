@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  7 09:51:30 2018
-
-@author: Omicron
+@author: NathanLHall
 """
 import math
 n = 1
