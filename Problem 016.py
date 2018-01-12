@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  7 14:48:31 2018
-
-@author: Omicron
+@author: NathanLHall
 """
+
+# https://projecteuler.net/problem=16
 
 power = 2 ** 1000
 power = str(power)
