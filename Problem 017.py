@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+@author: NathanLHall
+"""
+
+# https://projecteuler.net/problem=17
+
 one = 3
 two = 3
 three = 5
