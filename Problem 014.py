@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  7 11:22:56 2018
-
-@author: Omicron
+@author: NathanLHall
 """
+
+# https://projecteuler.net/problem=14
+
 Collatz = 0
 maxCount = 0
 collatz = 1
