@@ -2,6 +2,8 @@
 """
 @author: NathanLHall
 """
+
+# https://projecteuler.net/problem=12
 import math
 n = 1
 triangular = 0
