@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  7 10:50:17 2018
-
-@author: Omicron
+@author: NathanLHall
 """
+
+# https://projecteuler.net/problem=13
 
 file = open("D:\Project Euler\Problem 013.txt", 'r')
 contents = file.readlines()
