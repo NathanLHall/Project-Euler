@@ -4,21 +4,15 @@ Created on Sun Jan 14 11:05:46 2018
 
 @author: NathanLHall
 """
-
+import time
 limit = 100
 
 def sum_of_squares(number):
-    total = 0
-    for i in range(1, number + 1):
-        square = i ** 2
-        total += square
+    total = (number * (number + 1) * (2 * number + 1)) // 6
     return total
 
 def square_of_sums(number):
-    total = 0
-    for i in range(1, number + 1):
-        total += i
-    total = total ** 2
+    total = ((1 + number) * number // 2) ** 2
     return total
 
 def main(number):
@@ -27,4 +21,7 @@ def main(number):
     difference = squareSums - sumSquares
     return difference
 
+start = time.time()
 print(main(limit))
+end = time.time()
+print(end - start)
