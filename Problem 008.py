@@ -24,6 +24,7 @@ for index in range(len(number) - 12):
     for i in range(0,13):
         searchSpace.append(number[index + i])
     if 0 in searchSpace:
+        # --- CODE LATER ---
         # If 0 is one of the digits present, skip ahead to grab the first 13 digits
         # after it.  If 0 shows up in the middle, locate it and skip ahead to grab
         # the first 13 digits after that.
@@ -34,6 +35,5 @@ for index in range(len(number) - 12):
         product *= searchSpace[k]
     if product > maxProduct:
         maxProduct = product
-    index += 1
 
 print(maxProduct)    
