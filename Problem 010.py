@@ -11,7 +11,7 @@ def checkDivisibility(number, primes):
             return None
     return number
 
-# Given a positive integer, the index = n, will find the nth prime number.
+# Find all primes below a given number (index).
 def primes_below(index):
     primes = [2,3]
     candidate = 5
