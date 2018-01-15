@@ -28,7 +28,6 @@ for index in range(len(number) - 12):
         # If 0 is one of the digits present, skip ahead to grab the first 13 digits
         # after it.  If 0 shows up in the middle, locate it and skip ahead to grab
         # the first 13 digits after that.
-        index = location + 1
         continue
     product = 1
     for k in range(len(searchSpace)):
