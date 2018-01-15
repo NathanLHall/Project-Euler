@@ -17,8 +17,6 @@ for line in contents:
         if i != '\n':
             number.append(int(i))
 
-index = 0
-
 for index in range(len(number) - 12):
     searchSpace = []
     for i in range(0,13):
